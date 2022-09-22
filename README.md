@@ -29,8 +29,12 @@
 - template
 	- index.html
 ---
+*To run project you need use this command in terminal*
+```
+go run cmd/main/main.go
+```
 
-*You need use this commands in terminal*
+*Or you can run Docker,use this commands in terminal*
 ```
 $ docker image build -f Dockerfile -t imagename .
 
