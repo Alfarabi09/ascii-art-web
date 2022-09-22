@@ -1,6 +1,8 @@
 # Ascii-art-web
 
-**Ascii-art-web** consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of my last project, ascii-art.
+**Ascii-art-web** consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of Ascii-art.
+
+**Ascii-art** is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII.
 
 ### **My webpage allow the use of the different banners**
 + [shadow](https://01.alem.school/git/root/public/src/branch/master/subjects/ascii-art/shadow.txt)
