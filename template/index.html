@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/template/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/template/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/template/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/template/favicon/favicon-32x32.png">
+    <link rel="manifest" href="/template/favicon/site.webmanifest">
+    <title>Ascii-art-web</title>
+     
+</head>
+<body>
+    <header>
+       <ul class="navbar">
+            <li>
+                <a >Git</a>
+            </li>
+            <li>
+                <a href="https://01.alem.school">Alem-School</a>
+            </li>
+            <li>
+                <a href="https://01.alem.school/git/Alfarabi09">Alfarabi09</a> 
+                <span>&</span>
+                <a href="https://01.alem.school/git/Mike7">Mike7</a>
+            </li>
+        </ul> 
+    </header>
+    <div class="container">
+        <div class="title">
+            <h1>Ascii-art-web</h1>
+        </div>
+        <form method="POST" action="/ascii-art">
+            <div class="submit">
+                <select name="file" >
+                    <option value="standard.txt">standard</option>
+                    <option value="shadow.txt">shadow</option>
+                    <option value="thinkertoy.txt">thinkertoy</option>
+                </select>
+                <input type="submit" value="оппаньки!" />
+            </div>
+            <textarea name="text" placeholder="Печатай, тигр!"></textarea>
+            <div class="scrollmenu">
+                <pre>{{ . }}</pre>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
